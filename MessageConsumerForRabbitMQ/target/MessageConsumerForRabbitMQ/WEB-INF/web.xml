@@ -1,0 +1,18 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+
+  <display-name>MessageConsumer</display-name>
+
+  <servlet>
+    <servlet-name>ConsumerServletView</servlet-name>
+    <servlet-class>ru.skhatuntsev.Handler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConsumerServletView</servlet-name>
+    <url-pattern>/consumer</url-pattern>
+  </servlet-mapping>
+</web-app>
